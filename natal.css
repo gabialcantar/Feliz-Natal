@@ -1,0 +1,25 @@
+body {
+    background: -webkit-radial-gradient(#a8e063, #56ab2f);
+    background: radial-gradient(#a8e063, #56ab2f);
+    display: block;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Verdana', sans-serif;
+}
+
+h1 {
+    font-size: 46px;
+    text-shadow: 0 4px 10px rgba(130, 216, 60, 0.7);
+}
+
+.mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0;
+}
